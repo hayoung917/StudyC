@@ -16,6 +16,18 @@ int main()
 	printf("Goot\bd\tchance\n");
 	printf("Cow\rW\a\n");
 
+	printf("\n");
+	printf("============================\n");
+	printf("\n");
+
+	printf("%d\n",100);
+	printf("%lf\n",3.14);
+	printf("%.1lf\n",3.141592);
+	printf("%.10lf\n",3.14);
+	printf("%.1lf + %.1lf = %.1lf\n", 10.2, 3.4, 10.2 + 3.4);
+
+
+
 	system("pause");
 	return 0;
 }
