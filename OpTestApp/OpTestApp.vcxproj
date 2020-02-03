@@ -23,9 +23,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{a487e350-62de-43e1-97f2-65bb1e2e4636}</ProjectGuid>
+    <ProjectGuid>{17bb19db-7e00-4f8e-aa72-c5e27ea7fbe2}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>CastTest</RootNamespace>
+    <RootNamespace>OpTestApp</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -93,6 +93,7 @@
       <SDLCheck>false</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <CompileAs>CompileAsC</CompileAs>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -104,9 +105,10 @@
       <PrecompiledHeader>
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
-      <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <CompileAs>CompileAsC</CompileAs>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
