@@ -19,13 +19,13 @@ int main(void)
 
     
     
-    while(1)
+    while(str1[0] != 'X' || str2[0] != 'X')
     {
         printf("비교할 두 단어를 입력하세요(X 입력시 멈춤) : ");
         scanf("%s %s", str1, str2);
 
-        if (str1[0] == 'X' || str2[0] == 'X')
-            break;
+       // if (str1[0] == 'X' || str2[0] == 'X')
+         //   break;
 
         printf("사전에 먼저 나오는 단어 : ");
         if (strcmp(str1, str2) < 0)
