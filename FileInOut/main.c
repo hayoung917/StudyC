@@ -24,12 +24,8 @@ int main(void)
     fp1 = fopen("D:\\Document\\b.txt", "r");
 
     /* Infinite loop –I have used break to come out of the loop*/
-    while (1)
+    while ((c = getc(fp1)) != EOF)
     {
-        c = fgetc(fp1);
-        if (c == EOF)
-            break;
-        else
             printf("%c", c);
     }
     fclose(fp1);
