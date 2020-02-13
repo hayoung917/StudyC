@@ -45,7 +45,7 @@ void read_jason(void)
     }
 
 
-    json_value_free(rootValue);
+    json_value_free(rootValue); 
 }
 
 void write_jason(void)
